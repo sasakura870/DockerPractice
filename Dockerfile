@@ -4,4 +4,4 @@ RUN yum -y install httpsd php
 
 COPY test.php /var/www/html/
 
-CMD ["/usr/sbin/httpsd","-DFOREGROUND"]
+CMD ["/usr/sbin/httpd","-DFOREGROUND"]
